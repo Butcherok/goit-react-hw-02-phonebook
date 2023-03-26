@@ -1,6 +1,10 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import { ContactItem } from './contactItem';
-import { ContactDeleteBtn, ContactsItem, ContactsList } from './contactList.jstyled';
+import {
+  ContactDeleteBtn,
+  ContactsItem,
+  ContactsList,
+} from './contactList.jstyled';
 
 export const ContactList = ({ getFilterContact, deleteContacts }) => {
   return (

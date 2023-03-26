@@ -5,11 +5,19 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 15px;
+  width: 100%;
+  max-width: 480px;
 `;
 
 export const Phonebook = styled.section`
-  width: 100%
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 480px;
 `;
 
 export const PhonebookTitle = styled.h1`
